@@ -23,9 +23,7 @@
     height: 70px;
     background: rgba(47, 48, 58, 0.8);
     position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex-align;
     bottom: 0;
     left: 0;
     padding-right: 10px;

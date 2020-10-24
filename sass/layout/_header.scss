@@ -7,9 +7,7 @@
   }
 
   &-list-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.143;
+    @include font(500, 14px, 16px);
     letter-spacing: 0.02em;
     color: $secondary-color;
     display: block;
@@ -59,9 +57,7 @@
 }
 
 .address-mail {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
+  @include font(500, 14px, 16px);
   letter-spacing: 0.02em;
   color: $main-color;
   display: block;
@@ -87,9 +83,7 @@
 }
 
 .address-tel {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
+  @include font(500, 14px, 16px);
   letter-spacing: 0.02em;
   color: $main-color;
   display: block;

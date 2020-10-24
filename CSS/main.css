@@ -10,6 +10,12 @@
   overflow: hidden;
 }
 
+.checkbox-wrap, .social-list-link, .about-description-text, .clients-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 *,
 *::before,
 *::after {
@@ -242,8 +248,9 @@ img {
 }
 
 .modal-form-policy-label {
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.71429;
   letter-spacing: 0.03em;
   color: #757575;
   cursor: pointer;
@@ -272,9 +279,6 @@ img {
 
 .checkbox-wrap {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 30px;
   cursor: pointer;
 }
@@ -286,9 +290,6 @@ img {
 }
 
 .social-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -368,7 +369,7 @@ img {
 .navigation-list-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.143;
+  line-height: 1.14286;
   letter-spacing: 0.02em;
   color: #212121;
   display: block;
@@ -418,7 +419,7 @@ img {
 .address-mail {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.143;
+  line-height: 1.14286;
   letter-spacing: 0.02em;
   color: #757575;
   display: block;
@@ -445,7 +446,7 @@ img {
 .address-tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.143;
+  line-height: 1.14286;
   letter-spacing: 0.02em;
   color: #757575;
   display: block;
@@ -511,7 +512,7 @@ img {
 .advantages-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.143;
+  line-height: 1.14286;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -590,9 +591,6 @@ img {
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
   position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   bottom: 0;
   left: 0;
   padding-right: 10px;
@@ -676,9 +674,6 @@ img {
 }
 
 .clients-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
@@ -712,7 +707,7 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.71429;
   letter-spacing: 0.03em;
   color: #ffffff;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -726,7 +721,7 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.71429;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -743,7 +738,7 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.71429;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);

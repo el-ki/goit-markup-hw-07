@@ -12,9 +12,7 @@
   padding-bottom: 94px;
 
   &-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-align;
     width: 170px;
     height: 90px;
     border: 1px solid $social-link-color;

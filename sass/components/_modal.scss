@@ -138,8 +138,7 @@
 }
 
 .modal-form-policy-label {
-  font-size: 14px;
-  line-height: 1.714;
+  @include font();
   letter-spacing: 0.03em;
   color: $main-color;
   cursor: pointer;
@@ -168,9 +167,7 @@
 
 .checkbox-wrap {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %flex-align;
   margin-bottom: 30px;
   cursor: pointer;
 }
