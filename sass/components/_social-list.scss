@@ -14,10 +14,10 @@
   background-color: $color-dark-theme;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
-}
 
-.social-list-link:hover .social-list-svg {
-  fill: $color-dark-theme;
+  &:hover {
+    background-color: $accent-color;
+  }
 }
 
 .social-list-svg {
@@ -25,8 +25,23 @@
   height: 20px;
   fill: $social-link-color;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .social-list-link:hover & {
+    fill: $color-dark-theme;
+  }
 }
 
-.social-list-link:hover {
-  background-color: $accent-color;
+.social-list-item {
+  display: flex;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.social-dark-theme-color {
+  background-color: $social-dark-theme;
+}
+.social-dark-theme {
+  fill: $color-dark-theme;
 }
